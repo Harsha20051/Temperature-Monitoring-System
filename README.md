@@ -68,7 +68,7 @@ void setup() {
 void loop() {
   int analogValue = analogRead(tempPin);
   float tempC = analogValue * 0.48828125;  // (5V / 1023) * (1/10 mV per °C)
-  float tempF = tempC * 1.8 + 32;
+  float tempF = tempC * 1.8 + 32
 
   // Display on LCD
   lcd.setCursor(0, 0);
